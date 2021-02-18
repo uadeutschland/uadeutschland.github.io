@@ -7,7 +7,7 @@ Die Teilnahme an Meetings unterstützt unseren gesamten Genesungsprozess. Die Ze
 
 Underearners Anonymous wurde 2005 von Andrew und Hallie, welche Vorerfahrungen mit DA und NA hatten, in Nyack, New York [gegründet](https://en.wikipedia.org/wiki/Underearners_Anonymous).
 
-Jeden Donnerstag 18:00 bis 19 Uhr Telefonmeeting: 022198882117 PIN: 800664# 
+Jeden Donnerstag 18:00 bis 19:00 Uhr Telefonmeeting: 022198882117 PIN: 800664# 
 
 Die internationale Homepage findet ihr hier:
 [https://www.underearnersanonymous.org/](https://www.underearnersanonymous.org/)
