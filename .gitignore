@@ -1,3 +1,5 @@
+Gemfile*
+vendor/
 # Logs
 logs
 *.log
