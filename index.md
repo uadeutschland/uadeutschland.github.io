@@ -9,5 +9,7 @@ Underearners Anonymous wurde 2005 von Andrew und Hallie, welche Vorerfahrungen m
 
 Jeden Donnerstag 18:00 bis 19:00 Uhr Telefonmeeting: 022198882117 PIN: 800664# 
 
+Jeden Dienstag 16:30 bis 17:30 Uhr via Skype
+
 Die internationale Homepage findet ihr hier:
 [https://www.underearnersanonymous.org/](https://www.underearnersanonymous.org/)

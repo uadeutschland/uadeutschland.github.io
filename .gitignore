@@ -1,5 +1,6 @@
 Gemfile*
 vendor/
+_site/
 # Logs
 logs
 *.log
