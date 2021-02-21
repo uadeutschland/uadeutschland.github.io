@@ -1,5 +1,9 @@
 ## Die deutschsprachige Underearners Anonymous (UA) Community
 
+Underearners Anonymous® ist ein 12-Schritte-Programm (abgeleitet vom 12-Schritte-Programm der Anonymen Alkoholiker) von Menschen, die zusammengekommen sind, um sich und einander zu helfen, vom Unterverdienen zu genesen.
+
+Unterverdienen ist vieles, bei dem es nicht nur um Geld geht. Während die sichtbarste Folge die Unfähigkeit ist, die eigenen Bedürfnisse, einschließlich zukünftiger Bedürfnisse, zu befriedigen, geht es beim Unterverdienen auch um die Unfähigkeit, unsere Fähigkeiten und Kompetenzen vollständig anzuerkennen und auszudrücken. Es geht um Untererfüllung oder Unter-Sein, egal wie viel Geld wir verdienen.
+
 Der Weg, um in UA zu beginnen, besteht darin, an Meetings teilzunehmen und schriftlich festzuhalten, wie wir unsere Zeit „ausgeben“.
 Die Teilnahme an Meetings unterstützt unseren gesamten Genesungsprozess. Die Zeiterfassung steht unserer Gewohnheit gegenüber, in Unbestimmtheit zu leben. Es stellt sicher, dass wir beginnen, klar zu sehen und uns daran zu erinnern, was wir erreicht haben und was nicht. Wenn wir lernen, schriftlich festzuhalten, wie wir diese endliche Ressource ausgeben, gewinnen wir die dringend benötigte Klarheit. Dies ist Zeit-Nüchternheit. (aus UA-Pamphlet)
 

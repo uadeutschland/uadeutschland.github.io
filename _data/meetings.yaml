@@ -1,12 +1,12 @@
 - name: "Donnerstag Telefonmeeting"
   time: "18:00 bis 19:00 Uhr"
   day_of_week: "Donnerstag"
-  location: "freeconferencecall 123456,,,12345#"
+  location: "022198882117 PIN: 800664##"
 
 - name: "Dienstag Skype"
-  time: "16:30"
+  time: "16:30 - 17:30 Uhr"
   day_of_week: "Dienstag"
-  location: "Skype 123"
+  location: "Skype: https://join.skype.com/jr5fw2HqGpzY"
 
 # copy and uncomment
 # - name: ""
