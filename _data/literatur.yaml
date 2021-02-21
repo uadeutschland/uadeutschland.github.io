@@ -2,5 +2,5 @@
 # - name: ""
 #   location: ""
 
-- name: "Fragebogen C-PDSD"
+- name: "Fragebogen C-PTSD"
   src: "Fragebogen C-PTSD.pdf"
