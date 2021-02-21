@@ -1,0 +1,6 @@
+# copy and uncomment
+# - name: ""
+#   location: ""
+
+- name: "Fragebogen C-PDSD"
+  src: "Fragebogen C-PTSD.pdf"

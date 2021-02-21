@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "de-DE" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <header>
+        <img src="/assets/images/ua-logo.png" height="98" width="400">
+      </header>
+    <div class="wrapper">
+        <nav>
+          <ul><li class="tag-h1"><a href="/">Home</a></li></ul>
+        </nav>
+        <section>
+   
+          <h2>Literatur</h2>
+        <ul>
+        {% for pdf in site.data.literatur %}
+            <li><a href="files/{{ pdf.src }}">{{ pdf.name }}</a></li>
+        {% endfor %}
+        </ul>
+      </section>
+      
+      <footer>
+        <p><small>(c) 2021 UA</small></p>
+      </footer>
+    </div>
+
+  </body>
+</html>
