@@ -7,3 +7,9 @@
   time: "16:30"
   day_of_week: "Dienstag"
   location: "Skype 123"
+
+# copy and uncomment
+# - name: ""
+#   time: ""
+#   day_of_week: ""
+#   location: ""
