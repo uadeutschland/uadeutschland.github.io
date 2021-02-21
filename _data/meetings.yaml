@@ -1,0 +1,9 @@
+- name: "Donnerstag Telefonmeeting"
+  time: "18:00 bis 19:00 Uhr"
+  day_of_week: "Donnerstag"
+  location: "freeconferencecall 123456,,,12345#"
+
+- name: "Dienstag Skype"
+  time: "16:30"
+  day_of_week: "Dienstag"
+  location: "Skype 123"
