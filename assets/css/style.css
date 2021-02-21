@@ -253,7 +253,7 @@ hr { border: 0; outline: none; height: 11px; background: transparent url("../ima
 
 dt { color: #444; font-weight: 700; }
 
-header { padding: 25px 20px 40px 20px; margin: 0; position: fixed; top: 0; left: 0; right: 0; width: 100%; text-align: center; background: #a1bfe4; box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.75); z-index: 99; -webkit-font-smoothing: antialiased; min-height: 76px; }
+header { padding: 25px 20px 40px 20px; margin: 0; position: fixed; top: 0; left: 0; right: 0; width: 100%; text-align: center; background: #83BCDA; box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.75); z-index: 99; -webkit-font-smoothing: antialiased; min-height: 76px; }
 header h1 { font: 40px/48px 'Copse', "Helvetica Neue", Helvetica, Arial, sans-serif; color: #070707; text-shadow: 0px 2px 0px #235796; margin: 0px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; -o-text-overflow: ellipsis; -ms-text-overflow: ellipsis; }
 header p { color: #030303; text-shadow: rgba(0, 0, 0, 0.2) 0 1px 0; font-size: 18px; margin: 0px; }
 
@@ -266,7 +266,7 @@ header p { color: #030303; text-shadow: rgba(0, 0, 0, 0.2) 0 1px 0; font-size: 1
 #banner ul { list-style: none; height: 40px; padding: 0; float: left; margin-left: 10px; }
 #banner ul li { display: inline; }
 #banner ul li a.button { background-color: #FFE788; }
-#banner #logo { position: absolute; height: 36px; width: 36px; right: 7px; top: 7px; display: block; background: url(../images/octocat-logo.svg); }
+#banner #logo { position: absolute; height: 36px; width: 36px; right: 7px; top: 7px; display: block; background: url(../images/ua-logo.png); }
 
 section { width: 590px; padding: 30px 30px 50px 30px; margin: 20px 0; margin-top: 190px; position: relative; background: #fbfbfb; border-radius: 3px; border: 1px solid #cbcbcb; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09), inset 0px 0px 2px 2px rgba(255, 255, 255, 0.5), inset 0 0 5px 5px rgba(255, 255, 255, 0.4); }
 
