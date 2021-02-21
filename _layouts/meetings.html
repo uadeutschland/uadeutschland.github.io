@@ -27,7 +27,7 @@
           <h2>Verzeichnis der Unterverdiener-Meetings</h2>
         <ul>
         {% for meeting in site.data.meetings %}
-            <li>{{meeting.name}}  {{ meeting.time }}</li>
+            <li><b>{{meeting.name}}</b>  {{ meeting.time }}<br><i>{{ meeting.location }}</i></li>
         {% endfor %}
         </ul>
         <p>{{ content }}</p>
