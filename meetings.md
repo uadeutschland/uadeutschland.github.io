@@ -1,7 +1,9 @@
 ---
 layout: "meetings"
 ---
+# Verzeichnis der Unterverdiener-Meetings
 
-### neues Meeting anmelden
+{% include meetinglist.html %}
+## neues Meeting anmelden
 
 bitte teile uns Veränderungen mit <webmaster.ua.de@gmail.com>

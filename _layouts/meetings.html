@@ -22,15 +22,7 @@
         <nav>
           <ul><li class="tag-h1"><a href="/">Home</a></li></ul>
         </nav>
-        <section>
-   
-          <h2>Verzeichnis der Unterverdiener-Meetings</h2>
-        <ul>
-        {% assign meetings = site.data.meetings | sort: 'day_of_week' %}
-        {% for meeting in meetings %}
-            <li><b>{{meeting.name}}</b>  {{ meeting.time }}<br><i>{{ meeting.location }}</i></li>
-        {% endfor %}
-        </ul>
+        <section>   
         <p>{{ content }}</p>
       </section>
       
