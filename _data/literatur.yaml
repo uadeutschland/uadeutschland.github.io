@@ -1,10 +1,10 @@
 # copy and uncomment
 # - name: ""
-#   location: ""
+#   src: ""
 
 - name: "UA Meetingsmappe DE / EN"
-  location: "UA_pages_en-de_new.pdf"
+  src: "UA_pages_en-de_new.pdf"
 - name: "UA Reader DE / EN"
-  location: "UA_Reader_new.pdf"
+  src: "UA_Reader_new.pdf"
 - name: "Fragebogen C-PTSD"
   src: "Fragebogen C-PTSD.pdf"
