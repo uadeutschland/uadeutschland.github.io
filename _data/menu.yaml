@@ -1,0 +1,6 @@
+- name: "Home"
+  src: "/"
+- name: "Meetings"
+  src: "/meetings"
+- name: "Literatur"
+  src: "/literatur"
