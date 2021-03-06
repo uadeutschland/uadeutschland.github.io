@@ -2,9 +2,9 @@
 # - name: ""
 #   location: ""
 
-- name: "Fragebogen C-PTSD"
-  src: "Fragebogen C-PTSD.pdf"
 - name: "UA Meetingsmappe DE / EN"
   location: "UA_pages_en-de_new.pdf"
 - name: "UA Reader DE / EN"
   location: "UA_Reader_new.pdf"
+- name: "Fragebogen C-PTSD"
+  src: "Fragebogen C-PTSD.pdf"
