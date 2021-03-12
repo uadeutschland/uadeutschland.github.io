@@ -3,10 +3,11 @@
   day_of_week: "Donnerstag"
   location: "022198882117 PIN: 800664#"
 
-- name: "Dienstag Skype"
+- name: "Hybrid meeting Deutsch / English, offline / online."
   time: "16:30 - 17:30 Uhr"
   day_of_week: "Dienstag"
-  location: "Skype: https://join.skype.com/jr5fw2HqGpzY"
+  location: "Im HeileHaus, Waldemarstraße 36, 10999 Berlin (HH links  3.OG) und auf Skype: https://join.skype.com/jr5fw2HqGpzY"
+
 
 # copy and uncomment
 # - name: ""
