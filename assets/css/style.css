@@ -650,8 +650,11 @@ footer {
     word-wrap: break-word;
   }
   header {
-    padding: 20px 20px;
     margin: 0;
+  }
+  header nav {
+    margin-top: 20px;
+    text-align: left;
   }
   section {
     margin-top: 200px;
