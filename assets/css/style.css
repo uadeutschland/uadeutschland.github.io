@@ -645,7 +645,7 @@ footer {
     width: auto;
   }
 }
-@media print, screen and (max-width: 720px) {
+@media screen and (max-width: 720px) {
   body {
     word-wrap: break-word;
   }
@@ -654,7 +654,7 @@ footer {
     margin: 0;
   }
   section {
-    margin-top: 160px;
+    margin-top: 300px;
     margin-bottom: 0px;
     width: auto;
   }
