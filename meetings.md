@@ -7,4 +7,4 @@ layout: "default"
 
 ## neues Meeting anmelden
 
-bitte teile uns Veränderungen mit <webmaster.ua.de@gmail.com>
+bitte teile uns Veränderungen mit <{{ site.email }}>
