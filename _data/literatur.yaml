@@ -4,6 +4,8 @@
 
 - name: "UA Meetingsmappe DE / EN"
   src: "UA_pages_en-de_new.pdf"
+- name: "UA Meetingsmappe DE"
+  src: "UA_Meetingsmappe_Deutsch.pdf"
 - name: "UA Reader DE / EN"
   src: "UA_Reader_new.pdf"
 - name: "Fragebogen C-PTSD"
