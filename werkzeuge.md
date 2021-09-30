@@ -12,7 +12,7 @@ unsere Ziele und die dafür nötigen Aktionen zu fördern.
 unsere Erfahrung, Kraft und Hoffnung zu teilen, und um
 uns und anderen bei der Genesung vom Unterverdienen
 zu helfen.
-3. Sponsorschaft –Wir bemühen uns aktiv um Sponsorschaft
+3. Sponsorschaft – Wir bemühen uns aktiv um Sponsorschaft
 mit einer Person, welche die Zwölf Schritte in UA
 gearbeitet hat und bereit ist, uns in unserer Genesung
 anzuleiten.
@@ -34,16 +34,15 @@ Wohlstand in unser Leben bringen.
 8. Action Partner – Wir sind in regelmäßigem Kontakt mit
 Action Partnern über unsere Erwerbsanliegen, um uns
 gegenseitig Rechenschaft, Beständigkeit und
-Unterstützung zu bieten.
+Unterstützung zu geben.
 9. Zahlungsfähigkeit – Wir machen keine Schulden, nur für
 heute. Schuldenmachen führt zu Unterverdienen.
 10. Kommunikation – Wir kontaktieren andere UA
 Mitglieder, um Unterstützung zu suchen, Isolation zu
-vermindern und unsere Selbstverpflichtung/um unser
+vermindern, unsere Selbstverpflichtung und unser
 commitment zum Handeln zu verstärken.
-11. Literatur – Wir lesen Zwölf-Schritte-Literatur, Verständnis
-von zwanghafter Krankheit und dem Genesungsprozess
-zu stärken.
+11. Literatur – Wir lesen Zwölf-Schritte-Literatur, um Verständnis
+von zwanghafter Krankheit und dem Genesungsprozess zu stärken.
 12. Rücklagen – Geld zurücklegen demonstriert Vertrauen in
 die Zukunft und Akzeptanz der Tatsache, dass Geld ein
 wichtiges Werkzeug für unsere Wohlstandsvision ist. Wir

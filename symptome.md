@@ -6,7 +6,7 @@ layout: "default"
 
 1. Zeitindifferenz - Wir verschieben, was zu erledigen
 ist und nutzen unsere Zeit nicht, um unsere Vision
-und unsere eigenen Ziele zu fördern.
+und unsere eigenen Ziele zu erreichen.
 2. Ideenabwehr - Wir lehnen Ideen, die unser Leben
 oder unsere Karriere bereichern oder unsere
 Profitabilität erhöhen könnten, zwanghaft ab.
@@ -39,7 +39,7 @@ körperliche Beschwerden.
 unwohl, wenn wir einfordern oder erhalten, was wir
 brauchen oder uns zusteht.
 11. Kein Follow-Up - Wir machen kein Follow-Up bei
-Gelegenheiten, Fährten oder Jobs, die profitabel sein
+Gelegenheiten, Angeboten oder Jobs, die profitabel sein
 könnten. Wir beginnen viele Projekte und Aufgaben
 und beenden sie oft nicht.
 12. Stabilitäts-Langeweile - wir schaffen unnötige
