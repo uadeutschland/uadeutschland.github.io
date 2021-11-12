@@ -7,11 +7,13 @@
   time: "17:00 - 18:00 Uhr"
   day_of_week: "Dienstag"
   location: "Im HeileHaus, Waldemarstraße 36, 10999 Berlin (HH links  3.OG) und auf <a href='https://us02web.zoom.us/j/82726537856?pwd=T0dpZ1VHWUgzTU45ZDh0SElldVJaQT09'>Zoom</a>"
+  text: "id: 827 2653 7856, kenncode: 015568"
 
 - name: "Zoom Meeting der Underearners Anonymous"
   time: "19:30 - 20:30 Uhr"
   day_of_week: "Samstag"
   location: "<a href='https://us02web.zoom.us/j/88452780473?pwd=SmJKSUdSN1ljbDhtN3RBZXVwbE5Xdz09'>zoom link</a>"
+  text: "id: 884 5278 0473, kenncode: 940691"
 
 # copy and uncomment
 # - name: ""
