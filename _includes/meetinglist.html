@@ -1,6 +1,6 @@
 <ul>
     {% assign meetings = site.data.meetings | sort: "day_of_week" | group_by: "day_of_week" %}
-       {% for meeting in meetings %}
+    {% for meeting in meetings %}
       {% assign day = meeting.items | sort: "time" %}
       {% for meet in day %}
         <li><b>{{meet.name}}</b><br> {{meet.day_of_week}}: {{ meet.time }}<br><i>{{ meet.location }}</i></li>
