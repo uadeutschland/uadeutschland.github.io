@@ -600,13 +600,35 @@ header nav ul li {
   display: inline;
   padding: 10px;
 }
-nav ul a {
+.logo {
+  width: 650px;
+  margin: 5px auto 5px auto;
+
+}
+.imglogo {
+  width: 600px;
+}
+/* Menue responsive */
+nav > ul a {
   font-weight: 900;
   color: rgb(52, 103, 153);
 }
-nav ul a:hover {
+nav > ul a:hover {
   color: white;
 }
+@media only screen and (max-width: 600px) {
+  nav > ul {
+    border: 1px dotted red;
+  }
+  .logo {
+    width: 97%; 
+    margin: 5px;
+  }
+  .imglogo {
+    width: 100%;
+  }
+}
+/* End Menue */
 
 footer {
   width: 180px;
