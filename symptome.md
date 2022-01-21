@@ -47,4 +47,4 @@ Konflikte mit Kollegen, Vorgesetzten und Klienten,
 und kreieren somit Probleme, die finanzielle Nöte
 auslösen können.
 
-Hinweis: Der Text ist noch nicht durch ein deutschsprachiges UA-Literaturkomitee bestätigt. Verschiedene Versionen sind in den Meetings zur Zeit im Umlauf.
+_Hinweis: Der Text ist noch nicht durch ein deutschsprachiges UA-Literaturkomitee bestätigt. Verschiedene Versionen sind in den Meetings zur Zeit im Umlauf._
