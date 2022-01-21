@@ -41,4 +41,6 @@ wir, diese Botschaft an andere Unterverdiener
 weiterzugeben und unser tägliches Leben nach
 diesen Grundsätzen auszurichten.
 
+Hinweis: Der Text ist noch nicht durch ein deutschsprachiges UA-Literaturkomitee bestätigt. Verschiedene Versionen sind in den Meetings zur Zeit im Umlauf.
+
 Copyright © A.A. World Services, Inc. Adapted and reprinted with permission

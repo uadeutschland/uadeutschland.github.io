@@ -46,3 +46,5 @@ die Zukunft und betont, dass Geld ein
 wichtiges Werkzeug für unsere Wohlstandsvision ist. Wir
 erstellen und folgen einem Rücklagenplan in dem uns
 möglichen Umfang.
+
+Hinweis: Der Text ist noch nicht durch ein deutschsprachiges UA-Literaturkomitee bestätigt. Verschiedene Versionen sind in den Meetings zur Zeit im Umlauf.
