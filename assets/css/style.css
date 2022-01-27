@@ -187,14 +187,14 @@ ul {
 }
 
 dd {
-  margin: 0 0 0 40px;
+  margin: 0 0 0 20px;
 }
 
 /* Addresses paddings set differently in IE6/7 */
 menu,
 ol,
 ul {
-  padding: 0 0 0 40px;
+  padding: 0 20px;
 }
 
 /* Corrects list images handled incorrectly in IE7 */
@@ -462,7 +462,9 @@ strong {
   margin: 0 auto;
   position: relative;
 }
-
+section {
+  padding: 15px;
+}
 section img {
   max-width: 100%;
 }
@@ -566,7 +568,6 @@ header p {
 
 section {
   width: 590px;
-  padding: 30px 30px 50px 30px;
   margin: 20px 0;
   margin-top: 150px;
   position: relative;
@@ -601,12 +602,13 @@ header nav ul li {
   padding: 10px;
 }
 .logo {
-  width: 650px;
-  margin: 5px auto 5px auto;
+  width: 400px;
+  margin: 0px auto;
+  padding: 5px;
 
 }
 .imglogo {
-  width: 600px;
+  width: 400px;
 }
 /* Menue responsive */
 nav > ul a {
@@ -617,12 +619,18 @@ nav > ul a:hover {
   color: white;
 }
 @media only screen and (max-width: 600px) {
+  header {
+    position: relative;
+  }
+  section {
+    margin-top: 0px;
+   
+  }
   nav > ul {
-    border: 1px dotted red;
   }
   .logo {
     width: 97%; 
-    margin: 5px;
+    padding: 5px;
   }
   .imglogo {
     width: 100%;
@@ -639,18 +647,22 @@ footer {
   text-align: right;
   line-height: 16px;
 }
-
-@media print, screen and (max-width: 1060px) {
+header {
+  border: 1px solif black;
+}
+@media print, screen and (min-width: 601px) {
   div.wrapper {
     width: auto;
     margin: 0;
   }
+  
   header,
   section,
   footer {
     float: none;
   }
   section {
+    border: 2px dotted red;
     margin-top: 5px;
     border: 1px solid #e5e5e5;
     border-width: 1px 0;
@@ -667,33 +679,8 @@ footer {
     width: auto;
   }
 }
-@media screen and (max-width: 882px) {
-  body {
-    word-wrap: break-word;
-  }
-  header {
-    margin: 0;
-  }
-  header nav {
-    margin-top: 20px;
-    text-align: left;
-  }
-  section {
-    margin-top: 200px;
-    margin-bottom: 0px;
-    width: auto;
-  }
-  ol, ul {
-    padding: 0 0 0 20px;
-  }
-}
-@media print {
-  body {
-    padding: 0.4in;
-    font-size: 12pt;
-    color: #444;
-  }
-}
+
+/* für einzelne Seiten: meetinglist.html */ 
 .meetitem {
   padding-bottom: 1em;
 }
