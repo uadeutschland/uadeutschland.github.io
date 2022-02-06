@@ -7,6 +7,7 @@
 
   {% seo %}
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/menu.css' }}">
   <script src="https://code.jquery.com/jquery-3.3.0.min.js"
     integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
   <!--[if lt IE 9]>
@@ -21,13 +22,20 @@
     <div class="logo">
       <a href="/"><img class="imglogo" src="/assets/images/ua-logo.png"></a>
     </div>
-    <nav>
-      <ul>
+    <section class="navigation">
+      <div class="nav-container">
+        <div class="brand">
+          <a href="/">UA Home</a>
+        </div>
+        <nav>
+          <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+          <ul class="nav-list">
         {% for menu in site.data.menu %}
         <li><a href="{{ menu.src }}">{{ menu.name }}</a></li>
         {% endfor %}
       </ul>
     </nav>
+  </section>
   </header>
   <div class="wrapper">
     <section>
