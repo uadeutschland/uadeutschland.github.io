@@ -1,0 +1,16 @@
+{
+  "html.format.enable": true,
+  "html.suggest.html5": true,
+  "emmet.triggerExpansionOnTab": true,
+  "[html]": {
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+  },
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "all",
+    "editor.acceptSuggestionOnEnter": "off"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}

@@ -569,7 +569,6 @@ header p {
 section {
   width: 590px;
   margin: 20px 0;
-  margin-top: 150px;
   position: relative;
   background: #fbfbfb;
   border-radius: 3px;
@@ -583,61 +582,21 @@ small {
   font-size: 12px;
 }
 
-header > nav {
-  margin: 0;
-  text-align: center;
-  background: #83bcda;
+header {
+  position: relative;
+  border: 1px solif black;
 }
 
-header nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  list-style-image: none;
-  font-size: 24px;
-  line-height: 34px;
-}
-header nav ul li {
-  display: inline;
-  padding: 10px;
+section {
+  margin-top: 0px;
 }
 .logo {
-  width: 400px;
-  margin: 0px auto;
+  width: 97%;
   padding: 5px;
-
 }
 .imglogo {
-  width: 400px;
+  width: 100%;
 }
-/* Menue responsive */
-nav > ul a {
-  font-weight: 900;
-  color: rgb(52, 103, 153);
-}
-nav > ul a:hover {
-  color: white;
-}
-@media only screen and (max-width: 600px) {
-  header {
-    position: relative;
-  }
-  section {
-    margin-top: 0px;
-   
-  }
-  nav > ul {
-  }
-  .logo {
-    width: 97%; 
-    padding: 5px;
-  }
-  .imglogo {
-    width: 100%;
-  }
-}
-/* End Menue */
-
 footer {
   width: 180px;
   position: fixed;
@@ -647,15 +606,12 @@ footer {
   text-align: right;
   line-height: 16px;
 }
-header {
-  border: 1px solif black;
-}
 @media print, screen and (min-width: 601px) {
   div.wrapper {
     width: auto;
     margin: 0;
   }
-  
+
   header,
   section,
   footer {
@@ -667,7 +623,7 @@ header {
     border: 1px solid #e5e5e5;
     border-width: 1px 0;
     padding: 20px auto;
-    margin: 190px auto 20px;
+    margin: 0px auto 20px;
     max-width: 600px;
   }
   footer {
@@ -679,8 +635,11 @@ header {
     width: auto;
   }
 }
+.margin-top {
+  margin-top: 150px;
+}
 
-/* für einzelne Seiten: meetinglist.html */ 
+/* für einzelne Seiten: meetinglist.html */
 .meetitem {
   padding-bottom: 1em;
 }

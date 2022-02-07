@@ -1,7 +1,11 @@
 @charset "UTF-8";
-.navigation {
+
+.nav-container {
   height: 70px;
   background: #ffffff;
+  max-width: 1000px;
+  width: 600px;
+  margin: 0 auto;
 }
 
 .brand {
@@ -12,15 +16,14 @@
   text-transform: uppercase;
   font-size: 1.4em;
 }
+.brand img {
+  height: 60px;
+  padding: 5px;
+}
 .brand a,
 .brand a:visited {
-  color: #262626;
+  color: #336699;
   text-decoration: none;
-}
-
-.nav-container {
-  max-width: 1000px;
-  margin: 0 auto;
 }
 
 nav {
@@ -41,13 +44,13 @@ nav ul li a:visited {
   padding: 0 20px;
   line-height: 70px;
   background: #ffffff;
-  color: #262626;
+  color: #336699;
   text-decoration: none;
 }
 nav ul li a:hover,
 nav ul li a:visited:hover {
-  background: #DDDDDD;
-  color: #262626;
+  background: #dddddd;
+  color: #336699;
 }
 nav ul li a:not(:only-child):after,
 nav ul li a:visited:not(:only-child):after {
@@ -66,7 +69,7 @@ nav ul li ul li a {
   position: absolute;
   display: none;
   z-index: 1;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 3px 12px #336699;
 }
 
 /* Mobile navigation */
@@ -126,7 +129,7 @@ nav ul li ul li a {
   border-radius: 1px;
   height: 5px;
   width: 35px;
-  background: #262626;
+  background: #336699;
   position: absolute;
   display: block;
   content: "";
@@ -141,7 +144,8 @@ nav ul li ul li a {
 #nav-toggle.active span {
   background-color: transparent;
 }
-#nav-toggle.active span:before, #nav-toggle.active span:after {
+#nav-toggle.active span:before,
+#nav-toggle.active span:after {
   top: 0;
 }
 #nav-toggle.active span:before {
@@ -156,5 +160,3 @@ article {
   margin: 0 auto;
   padding: 10px;
 }
-
-/*# sourceMappingURL=menu.css.map */
