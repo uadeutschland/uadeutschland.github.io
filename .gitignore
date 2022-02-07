@@ -1,6 +1,7 @@
 Gemfile*
 vendor/
 _site/
+.jekyll-metadata
 
 .env
 # Logs
