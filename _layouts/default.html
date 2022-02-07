@@ -6,8 +6,11 @@
     {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/uastyle.css' }}" />
     <link rel="stylesheet" href="{{ '/assets/css/menu.css' }}" />
-    <script src="https://code.jquery.com/jquery-3.3.0.min.js"
-      integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.0.min.js"
+      integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4="
+      crossorigin="anonymous"
+    ></script>
 
     <!--[if lt IE 9]>
       <script
@@ -16,7 +19,10 @@
         crossorigin="anonymous"
       ></script>
     <![endif]-->
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
   </head>
 
   <body>
@@ -65,12 +71,10 @@
           </nav>
         </div>
       </header>
-      <section">
-        {{ content }}
-      </section>
+      <section>{{ content }}</section>
       <footer>
-          <a href="datenschutz.html">Datenschutz</a> |
-          <small>&copy; 2021 UA</small>
+        <a href="datenschutz.html">Datenschutz</a> |
+        <small>&copy; {{ "now" | date: "%Y"}} UA</small>
       </footer>
     </div>
 
