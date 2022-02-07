@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     {% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' }}" />
+    <link rel="stylesheet" href="{{ '/assets/css/uastyle.css' }}" />
     <link rel="stylesheet" href="{{ '/assets/css/menu.css' }}" />
     <script src="https://code.jquery.com/jquery-3.3.0.min.js"
       integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
@@ -69,16 +69,8 @@
         {{ content }}
       </section>
       <footer>
-        {% if site.github.is_project_page %}
-        <p>
-          Project wird erstellt von
-          <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
-        </p>
-        {% endif %}
-        <p>
           <a href="datenschutz.html">Datenschutz</a> |
           <small>&copy; 2021 UA</small>
-        </p>
       </footer>
     </div>
 
