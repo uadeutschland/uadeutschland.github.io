@@ -1,9 +1,11 @@
+const markdownIt = require("markdown-it");
+
 module.exports = function(eleventyConfig) {
-  return {
-    dir: {
-      // ⚠️ These values are both relative to your input directory.
-      includes: "_includes",
-      layouts: "_layouts"
-    }
-  }
+  let options = {
+    html: true,
+    breaks: true,
+    linkify: true
+  };
+
+  eleventyConfig.setLibrary("md", markdownIt(options));
 };
