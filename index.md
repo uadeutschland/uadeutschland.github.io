@@ -2,7 +2,7 @@
 layout: "default"
 ---
 
-# Die deutschsprachige Underearners Anonymous Community
+# Die deutschsprachige Underearners Anonymous Community (eleventy)
 
 Underearners Anonymous® ist ein 12-Schritte-Programm (abgeleitet vom 12-Schritte-Programm der Anonymen Alkoholiker) von Menschen, die zusammengekommen sind, um sich und einander zu helfen, vom Unterverdienen zu genesen.
 
