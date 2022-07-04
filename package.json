@@ -1,0 +1,27 @@
+{
+  "name": "thomaskarlrichter.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomaskarlrichter/thomaskarlrichter.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomaskarlrichter/thomaskarlrichter.github.io/issues"
+  },
+  "homepage": "https://github.com/thomaskarlrichter/thomaskarlrichter.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "markdown-it": "^13.0.1"
+  },
+  "dependencies": {
+    "eleventy-plugin-seo": "^0.5.2"
+  }
+}
