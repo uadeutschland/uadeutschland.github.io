@@ -1,8 +1,7 @@
 ---
 layout: "default"
-eleventyNavigation:
-  key: Präambel
 ---
+
 # Präambel
 
 Underearners Anonymous® eine Gemeinschaft von Männern und
