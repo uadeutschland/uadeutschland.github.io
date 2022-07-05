@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="/assets/css/uastyle.css" />
+    <link rel="stylesheet" href="/assets/css/menu.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.0.min.js"
+      integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--[if lt IE 9]>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"
+        integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g="
+        crossorigin="anonymous"
+      ></script>
+    <![endif]-->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+  </head>
+
+  <body>
+    <script>
+      (function ($) {
+        // Begin jQuery
+        $(function () {
+          // DOM ready
+          // If a link has a dropdown, add sub menu toggle.
+          $("nav ul li a:not(:only-child)").click(function (e) {
+            $(this).siblings(".nav-dropdown").toggle();
+            // Close one dropdown when selecting another
+            $(".nav-dropdown").not($(this).siblings()).hide();
+            e.stopPropagation();
+          });
+          // Clicking away from dropdown will remove the dropdown class
+          $("html").click(function () {
+            $(".nav-dropdown").hide();
+          });
+          // Toggle open and close nav styles on click
+          $("#nav-toggle").click(function () {
+            $("nav ul").slideToggle();
+          });
+          // Hamburger to X toggle
+          $("#nav-toggle").on("click", function () {
+            this.classList.toggle("active");
+          });
+        }); // end DOM ready
+      })(jQuery); // end jQuery
+    </script>
+    <div class="wrapper">
+      <header>
+        <div class="nav-container">
+          <div class="brand">
+            <a href="/"><img src="/assets/images/ua-logo.png" /></a>
+          </div>
+          <nav>
+            <div class="nav-mobile">
+              <a id="nav-toggle" href="#!"><span></span></a>
+            </div>
+            <ul><li><a href="/12schritte/">12 Schritte</a></li>
+<li><a href="/symptome/">Symptome</a></li>
+<li><a href="/werkzeuge/">Werkzeuge</a></li>
+<li><a href="/meetings/">Meetings</a></li>
+<li><a href="/literatur/">Literatur</a></li></ul>
+          </nav>
+        </div>
+      </header>
+      <section><h1>Symptome der Anonymen Unterverdiener®</h1>
+<ol>
+<li>Zeitindifferenz - Wir verschieben, was zu erledigen
+ist und nutzen unsere Zeit nicht, um unsere Vision
+und unsere eigenen Ziele zu erreichen.</li>
+<li>Ideenabwehr - Wir lehnen Ideen, die unser Leben
+oder unsere Karriere bereichern oder unsere
+Profitabilität erhöhen könnten, zwanghaft ab.</li>
+<li>Zwanghafter Drang, sich zu beweisen - Auch wenn
+wir unsere berufliche Kompetenz schon bewiesen
+haben, sind wir getrieben, unseren Wert immer
+wieder neu zu beweisen.</li>
+<li>Hängen an nutzlosem Besitz - Wir halten an
+nutzlosem Besitz, der uns nicht mehr dienlich ist,
+fest - wie kaputten Geräten oder abgetragener
+Kleidung.</li>
+<li>Anstrengung/Erschöpfung - Gewohnheitsmäßig
+überarbeiten wir uns, erschöpfen, dann
+'unterarbeiten' wir oder hören gänzlich auf zu
+arbeiten.</li>
+<li>Verschenken unserer Zeit - Zwanghaft bieten wir uns
+für verschiedene ehrenamtliche Tätigkeiten an oder
+verschenken unsere Dienste ohne klaren Nutzen.</li>
+<li>Unterschätzen und zu geringe Preise - Wir
+unterschätzen unsere Fähigkeiten und Leistungen,
+und haben Angst, nach Vergütungserhöhungen zu
+fragen, oder nach dem, was der Markt trägt.</li>
+<li>Isolation - Wir arbeiten alleine, auch wenn es uns
+besser täte, Kollegen, Partner oder Angestellte zu
+haben.</li>
+<li>Körperliche Beschwerden - Manchmal, aus Angst
+größer oder sichtbar/bloßgestellt zu sein, haben wir
+körperliche Beschwerden.</li>
+<li>Unpassende Schuld oder Scham - Wir fühlen uns
+unwohl, wenn wir einfordern oder erhalten, was wir
+brauchen oder uns zusteht.</li>
+<li>Kein Follow-Up - Wir machen kein Follow-Up bei
+Gelegenheiten, Angeboten oder Jobs, die profitabel sein
+könnten. Wir beginnen viele Projekte und Aufgaben
+und beenden sie oft nicht.</li>
+<li>Stabilitäts-Langeweile - wir schaffen unnötige
+Konflikte mit Kollegen, Vorgesetzten und Klienten,
+und kreieren somit Probleme, die finanzielle Nöte
+auslösen können.</li>
+</ol>
+<p><em>Hinweis: Der Text ist noch nicht durch ein deutschsprachiges UA-Literaturkomitee bestätigt. Verschiedene Versionen sind in den Meetings zur Zeit im Umlauf.</em></p>
+</section>
+      <footer>
+        <a href="/datenschutz">Datenschutz</a> |
+        <small>&copy; 2022 UA</small>
+      </footer>
+    </div>
+  </body>
+</html>

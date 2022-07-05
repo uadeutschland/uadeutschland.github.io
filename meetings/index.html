@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="/assets/css/uastyle.css" />
+    <link rel="stylesheet" href="/assets/css/menu.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.0.min.js"
+      integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--[if lt IE 9]>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"
+        integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g="
+        crossorigin="anonymous"
+      ></script>
+    <![endif]-->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+  </head>
+
+  <body>
+    <script>
+      (function ($) {
+        // Begin jQuery
+        $(function () {
+          // DOM ready
+          // If a link has a dropdown, add sub menu toggle.
+          $("nav ul li a:not(:only-child)").click(function (e) {
+            $(this).siblings(".nav-dropdown").toggle();
+            // Close one dropdown when selecting another
+            $(".nav-dropdown").not($(this).siblings()).hide();
+            e.stopPropagation();
+          });
+          // Clicking away from dropdown will remove the dropdown class
+          $("html").click(function () {
+            $(".nav-dropdown").hide();
+          });
+          // Toggle open and close nav styles on click
+          $("#nav-toggle").click(function () {
+            $("nav ul").slideToggle();
+          });
+          // Hamburger to X toggle
+          $("#nav-toggle").on("click", function () {
+            this.classList.toggle("active");
+          });
+        }); // end DOM ready
+      })(jQuery); // end jQuery
+    </script>
+    <div class="wrapper">
+      <header>
+        <div class="nav-container">
+          <div class="brand">
+            <a href="/"><img src="/assets/images/ua-logo.png" /></a>
+          </div>
+          <nav>
+            <div class="nav-mobile">
+              <a id="nav-toggle" href="#!"><span></span></a>
+            </div>
+            <ul><li><a href="/12schritte/">12 Schritte</a></li>
+<li><a href="/symptome/">Symptome</a></li>
+<li><a href="/werkzeuge/">Werkzeuge</a></li>
+<li><a href="/meetings/">Meetings</a></li>
+<li><a href="/literatur/">Literatur</a></li></ul>
+          </nav>
+        </div>
+      </header>
+      <section><h1>Verzeichnis der Unterverdiener-Meetings</h1>
+<ul>
+  <li class="meetitem">
+    <b>Hybrid meeting Deutsch / English, offline / online.</b><br />
+    Dienstag: 17:00 - 18:00 Uhr<br />
+    Im HeileHaus, Waldemarstraße 36, 10999 Berlin (HH links  3.OG) und auf <a href="https://us02web.zoom.us/j/82726537856?pwd=T0dpZ1VHWUgzTU45ZDh0SElldVJaQT09">zoom</a><br />id: 827 2653 7856, kenncode: 015568<br/>
+  </li>
+  <li class="meetitem">
+    <b>Donnerstag Telefonmeeting</b><br />
+    Donnerstag: 18:30 bis 19:30 Uhr<br />
+    03052014351 PIN: 800664#<br />
+    <a href="files/UA-Online-Chairvorlage-dt.pdf">Chair-Vorlage</a><br />
+  </li>
+  <li class="meetitem">
+    <b>UA-Meeting Hannover Deutsch / Persisch</b><br />
+    Donnerstag: 18:00 Uhr<br />
+    Bettfedernfabrik 1, Raum 5, Hannover<br />
+  </li>
+  <li class="meetitem">
+    <b>Zoom Meeting der Underearners Anonymous</b><br />
+    Samstag: 19:30 - 20:30 Uhr<br />
+     <a href="https://us02web.zoom.us/j/88452780473?pwd=SmJKSUdSN1ljbDhtN3RBZXVwbE5Xdz09">zoom</a><br />id: 884 5278 0473, kenncode: 940691<br/>
+  </li>
+</ul>
+<h2>neues Meeting anmelden</h2>
+<p>bitte teile uns Veränderungen mit <a href="mailto:webmaster.ua.de@gmail.com">webmaster.ua.de@gmail.com</a></p>
+<h2>Link zur UA-WSO Homepage</h2>
+<ul>
+<li><a href="https://www.underearnersanonymous.org/">UA-WSO Homepage</a></li>
+</ul>
+<h2>Links zu nationalen UA-Homepages</h2>
+<ul>
+<li><a href="https://ua-au.org/">Australien</a></li>
+<li><a href="http://underearnersanonymous.co.uk/">Großbritannien</a></li>
+<li><a href="https://ua-iran.ir">Iran</a></li>
+<li><a href="https://uaisrael.info">Israel</a></li>
+</ul>
+</section>
+      <footer>
+        <a href="/datenschutz">Datenschutz</a> |
+        <small>&copy; 2022 UA</small>
+      </footer>
+    </div>
+  </body>
+</html>

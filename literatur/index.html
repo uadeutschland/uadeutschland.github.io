@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="/assets/css/uastyle.css" />
+    <link rel="stylesheet" href="/assets/css/menu.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.0.min.js"
+      integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--[if lt IE 9]>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"
+        integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g="
+        crossorigin="anonymous"
+      ></script>
+    <![endif]-->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+  </head>
+
+  <body>
+    <script>
+      (function ($) {
+        // Begin jQuery
+        $(function () {
+          // DOM ready
+          // If a link has a dropdown, add sub menu toggle.
+          $("nav ul li a:not(:only-child)").click(function (e) {
+            $(this).siblings(".nav-dropdown").toggle();
+            // Close one dropdown when selecting another
+            $(".nav-dropdown").not($(this).siblings()).hide();
+            e.stopPropagation();
+          });
+          // Clicking away from dropdown will remove the dropdown class
+          $("html").click(function () {
+            $(".nav-dropdown").hide();
+          });
+          // Toggle open and close nav styles on click
+          $("#nav-toggle").click(function () {
+            $("nav ul").slideToggle();
+          });
+          // Hamburger to X toggle
+          $("#nav-toggle").on("click", function () {
+            this.classList.toggle("active");
+          });
+        }); // end DOM ready
+      })(jQuery); // end jQuery
+    </script>
+    <div class="wrapper">
+      <header>
+        <div class="nav-container">
+          <div class="brand">
+            <a href="/"><img src="/assets/images/ua-logo.png" /></a>
+          </div>
+          <nav>
+            <div class="nav-mobile">
+              <a id="nav-toggle" href="#!"><span></span></a>
+            </div>
+            <ul><li><a href="/12schritte/">12 Schritte</a></li>
+<li><a href="/symptome/">Symptome</a></li>
+<li><a href="/werkzeuge/">Werkzeuge</a></li>
+<li><a href="/meetings/">Meetings</a></li>
+<li><a href="/literatur/">Literatur</a></li></ul>
+          </nav>
+        </div>
+      </header>
+      <section><h1>Literatur</h1>
+<ul>
+  <li><a href="files/UA Meetingsmappe Deutsch.pdf">UA Meetingsmappe Deutsch</a></li>
+  <li><a href="files/UA_pages_en-de_new.pdf">UA Meetingsmappe DE / EN</a></li>
+  <li><a href="files/UA_Reader_new.pdf">UA Reader DE / EN</a></li>
+  <li><a href="files/Fragebogen C-PTSD.pdf">Fragebogen C-PTSD</a></li>
+</ul>
+<p><em>Hinweis: Der Text ist noch nicht durch ein deutschsprachiges UA-Literaturkomitee bestätigt. Verschiedene Versionen sind in den Meetings zur Zeit im Umlauf.</em></p>
+</section>
+      <footer>
+        <a href="/datenschutz">Datenschutz</a> |
+        <small>&copy; 2022 UA</small>
+      </footer>
+    </div>
+  </body>
+</html>
