@@ -16,6 +16,6 @@ typischerweise unter anderem folgende Informationen (im Rahmen von sogenannten H
 
 ## service
 
-The website was carefully crafted by Alex and Thomas.
+The website was carefully crafted by Axel and Thomas.
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />Der Text ist von Jan Schallaböck und lizensiert unter<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
