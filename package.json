@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/thomaskarlrichter/thomaskarlrichter.github.io#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1",
     "@11ty/eleventy-navigation": "^0.3.3"
   },
   "dependencies": {
