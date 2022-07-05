@@ -1,26 +1,32 @@
+- name: "Hybrid meeting Deutsch / English, offline / online."
+  time: "17:00 - 18:00 Uhr"
+  day_of_week: "Dienstag"
+  location:
+    text: Im HeileHaus, Waldemarstraße 36, 10999 Berlin (HH links  3.OG) und auf
+    video: zoom
+    link: https://us02web.zoom.us/j/82726537856?pwd=T0dpZ1VHWUgzTU45ZDh0SElldVJaQT09
+    note: "id: 827 2653 7856, kenncode: 015568"
+
 - name: "Donnerstag Telefonmeeting"
   time: "18:30 bis 19:30 Uhr"
   day_of_week: "Donnerstag"
-  location: "03052014351 PIN: 800664#"
-  chairvorlage: "UA-Online-Chairvorlage-dt.pdf"
+  location:
+    text: "03052014351 PIN: 800664#"
+  chairvorlage: UA-Online-Chairvorlage-dt.pdf
 
 - name: "UA-Meeting Hannover Deutsch / Persisch"
   time: "18:00 Uhr"
   day_of_week: "Donnerstag"
-  location: "Bettfedernfabrik 1, Raum 5, Hannover"
-
-- name: "Hybrid meeting Deutsch / English, offline / online."
-  time: "17:00 - 18:00 Uhr"
-  day_of_week: "Dienstag"
-  location: "Im HeileHaus, Waldemarstraße 36, 10999 Berlin (HH links  3.OG) und auf <a href='https://us02web.zoom.us/j/82726537856?pwd=T0dpZ1VHWUgzTU45ZDh0SElldVJaQT09'>zoom link</a>"
-  text: "id: 827 2653 7856, kenncode: 015568"
+  location:
+    text: "Bettfedernfabrik 1, Raum 5, Hannover"
 
 - name: "Zoom Meeting der Underearners Anonymous"
   time: "19:30 - 20:30 Uhr"
   day_of_week: "Samstag"
-  location: "<a href='https://us02web.zoom.us/j/88452780473?pwd=SmJKSUdSN1ljbDhtN3RBZXVwbE5Xdz09'>zoom link</a>"
-  text: "id: 884 5278 0473, kenncode: 940691"
-
+  location:
+    video: zoom
+    link: https://us02web.zoom.us/j/88452780473?pwd=SmJKSUdSN1ljbDhtN3RBZXVwbE5Xdz09
+    note: "id: 884 5278 0473, kenncode: 940691"
 # copy and uncomment
 # - name: ""
 #   time: ""

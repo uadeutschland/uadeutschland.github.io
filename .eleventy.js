@@ -1,5 +1,6 @@
 const markdownIt = require("markdown-it");
-const pluginSEO = require("eleventy-plugin-seo");
+const yaml = require("js-yaml");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function (eleventyConfig) {
   let options = {
@@ -7,16 +8,18 @@ module.exports = function (eleventyConfig) {
     breaks: false,
     linkify: true,
   };
-  eleventyConfig.addPlugin(pluginSEO, require("./_data/seo.json"));
   eleventyConfig.setLiquidOptions({
     dynamicPartials: false,
     root: ["_includes", "."],
   });
   eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.setLibrary("md", markdownIt(options));
   return {
     dir: {
       input: "./",
+      data: "./_data",
       output: "./_site",
     },
     passthroughFileCopy: true,

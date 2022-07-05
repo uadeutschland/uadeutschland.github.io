@@ -19,9 +19,10 @@
   "homepage": "https://github.com/thomaskarlrichter/thomaskarlrichter.github.io#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",
-    "markdown-it": "^13.0.1"
+    "@11ty/eleventy-navigation": "^0.3.3"
   },
   "dependencies": {
-    "eleventy-plugin-seo": "^0.5.2"
+    "js-yaml": "^4.1.0",
+    "markdown-it": "^13.0.1"
   }
 }

@@ -1,5 +1,7 @@
 ---
 layout: "default"
+eleventyNavigation:
+  key: Präambel
 ---
 # Präambel
 

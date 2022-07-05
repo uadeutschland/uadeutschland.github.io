@@ -1,7 +1,3 @@
-# copy and uncomment
-# - name: ""
-#   src: ""
-
 - name: "UA Meetingsmappe Deutsch"
   src: "UA Meetingsmappe Deutsch.pdf"
 - name: "UA Meetingsmappe DE / EN"
