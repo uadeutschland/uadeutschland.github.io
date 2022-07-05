@@ -110,7 +110,7 @@ nav ul li ul li a {
   }
 }
 @media screen and (min-width: 799px) {
-  .nav-list {
+  nav ul {
     display: block !important;
   }
 }

@@ -1,0 +1,18 @@
+
+<ul>
+  {% for meet in meetings %} 
+  <li class="meetitem">
+    <b>{{meet.name}}</b><br />
+    {{meet.day_of_week}}: {{ meet.time }}<br />
+    {% if meet.location.link %} 
+    {{- meet.location.text }} <a href="{{- meet.location.link -}}">{{meet.location.video}}</a><br />
+    {{- meet.location.note}}<br/>
+    {% else %}
+    {{- meet.location.text}}<br />
+    {% endif %} 
+    {%- if meet.chairvorlage -%}
+    <a href="files/{{meet.chairvorlage}}">Chair-Vorlage</a><br />
+    {% endif %}
+  </li>
+  {% endfor %} 
+</ul>

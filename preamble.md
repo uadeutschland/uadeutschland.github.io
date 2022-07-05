@@ -1,6 +1,7 @@
 ---
 layout: "default"
 ---
+
 # Präambel
 
 Underearners Anonymous® eine Gemeinschaft von Männern und

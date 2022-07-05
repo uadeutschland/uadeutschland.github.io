@@ -1,9 +1,13 @@
 ---
 layout: "default"
+eleventyNavigation:
+  key: Meetings
+  order: 4
 ---
+
 # Verzeichnis der Unterverdiener-Meetings
 
-{% include meetinglist.html %}
+{% include meetinglist %}
 
 ## neues Meeting anmelden
 
