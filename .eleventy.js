@@ -12,7 +12,8 @@ module.exports = function (eleventyConfig) {
     dynamicPartials: false,
     root: ["_includes", "."],
   });
-  eleventyConfig.addPassthroughCopy(["assets", "files"]);
+  eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy("files");
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.setLibrary("md", markdownIt(options));
