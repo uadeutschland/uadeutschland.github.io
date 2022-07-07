@@ -9,7 +9,7 @@ eleventyNavigation:
 
 <ul>
   {% for pdf in literatur %}
-  <li><a href="files/{{ pdf.src }}">{{ pdf.name }}</a></li>
+  <li><a href="../files/{{ pdf.src }}">{{ pdf.name }}</a></li>
   {% endfor %}
 </ul>
 
