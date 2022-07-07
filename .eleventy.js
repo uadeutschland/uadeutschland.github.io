@@ -14,6 +14,7 @@ module.exports = function (eleventyConfig) {
   });
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("files");
+  eleventyConfig.addPassthroughCopy("CNAME");
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.setLibrary("md", markdownIt(options));
