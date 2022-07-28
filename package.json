@@ -17,10 +17,8 @@
     "url": "https://github.com/thomaskarlrichter/thomaskarlrichter.github.io/issues"
   },
   "homepage": "https://github.com/thomaskarlrichter/thomaskarlrichter.github.io#readme",
-  "devDependencies": {
-    "@11ty/eleventy-navigation": "^0.3.3"
-  },
   "dependencies": {
+    "@11ty/eleventy-navigation": "^0.3.3",
     "js-yaml": "^4.1.0",
     "markdown-it": "^13.0.1"
   }
