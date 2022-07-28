@@ -1,5 +1,5 @@
 {
-  "name": "thomaskarlrichter.github.io",
+  "name": "uadeutschland.github.io",
   "version": "1.0.0",
   "description": "",
   "main": ".eleventy.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thomaskarlrichter/thomaskarlrichter.github.io.git"
+    "url": "git+https://github.com/uadeutschland/uadeutschland.github.io.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thomaskarlrichter/thomaskarlrichter.github.io/issues"
+    "url": "https://github.com/uadeutschland/uadeutschland.github.io/issues"
   },
-  "homepage": "https://github.com/thomaskarlrichter/thomaskarlrichter.github.io#readme",
+  "homepage": "https://github.com/uadeutschland/uadeutschland.github.io#readme",
   "dependencies": {
     "@11ty/eleventy-navigation": "^0.3.3",
     "js-yaml": "^4.1.0",
