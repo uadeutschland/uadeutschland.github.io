@@ -18,7 +18,7 @@ Die internationale Homepage findet ihr hier:
 
 ## Präambel
 
-Underearners Anonymous® eine Gemeinschaft von Männern und
+Underearners Anonymous® ist eine Gemeinschaft von Männern und
 Frauen, die miteinander ihre Erfahrung, Kraft und Hoffnung teilen,
 um ihr gemeinsames Problem zu lösen und anderen zur Genesung
 vom Unterverdienen zu verhelfen. Die einzige Voraussetzung für
