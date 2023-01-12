@@ -27,6 +27,8 @@
     video: zoom
     link: https://us02web.zoom.us/j/88452780473?pwd=SmJKSUdSN1ljbDhtN3RBZXVwbE5Xdz09
     note: "id: 884 5278 0473, kenncode: 940691"
+  chairvorlage: ChairvorlageUAZoom.pdf
+  meetingeinblendungen: einblendungen_2-1.pdf
 # copy and uncomment
 # - name: ""
 #   time: ""

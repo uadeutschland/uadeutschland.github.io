@@ -13,6 +13,10 @@
     {%- if meet.chairvorlage -%}
     <a href="../files/{{meet.chairvorlage}}">Chair-Vorlage</a><br />
     {% endif %}
+    {%- if meet.meetingeinblendungen -%}
+    <a href="../files/{{meet.meetingeinblendungen}}">Einblendungen-Vorlage</a><br />
+    {% endif %}
+
   </li>
   {% endfor %} 
 </ul>
