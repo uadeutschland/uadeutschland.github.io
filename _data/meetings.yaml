@@ -14,11 +14,11 @@
     text: "Tel.: 0221 9820 3406 PIN: 5522461#"
   chairvorlage: UA-Online-Chairvorlage-dt.pdf
 
-- name: "UA-Meeting Hannover Deutsch / Persisch"
-  time: "18:00 Uhr"
-  day_of_week: "Donnerstag"
-  location:
-    text: "Bettfedernfabrik 1, Raum 5, Hannover"
+# - name: "UA-Meeting Hannover Deutsch / Persisch"
+#   time: "18:00 Uhr"
+#   day_of_week: "Donnerstag"
+#   location:
+#     text: "Bettfedernfabrik 1, Raum 5, Hannover"
 
 - name: "Zoom Meeting der Underearners Anonymous"
   time: "19:30 - 20:30 Uhr"
