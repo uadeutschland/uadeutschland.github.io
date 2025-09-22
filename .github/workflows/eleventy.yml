@@ -1,21 +1,36 @@
-name: Eleventy Build
+name: Build and Deploy
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ['master']
 
 jobs:
-  build_deploy:
-    runs-on: ubuntu-18.04
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: ['20']
+
+    permissions:
+      contents: write
+
     steps:
-      - uses: actions/checkout@master
-      - name: Build
-        uses: TartanLlama/actions-eleventy@master
+      - uses: actions/checkout@v4
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
         with:
-          install_dependencies: true
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
+      - name: Install packages
+        run: npm ci
+
+      - name: Run npm build
+        run: npm run build:prod
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          publish_dir: _site 
-          publish_branch: gh_pages
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
