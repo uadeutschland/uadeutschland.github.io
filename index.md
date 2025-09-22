@@ -4,6 +4,8 @@ layout: "default"
 
 # Die deutschsprachige Underearners Anonymous Community
 
+### Wichtig! Die Website benötigt einen neuen webmaster, bitte melden!!!
+
 Underearners Anonymous® ist ein 12-Schritte-Programm (abgeleitet vom 12-Schritte-Programm der Anonymen Alkoholiker) von Menschen, die zusammengekommen sind, um sich und einander zu helfen, vom Unterverdienen zu genesen.
 
 Unterverdienen ist vieles, bei dem es nicht nur um Geld geht. Während die sichtbarste Folge die Unfähigkeit ist, die eigenen Bedürfnisse, einschließlich zukünftiger Bedürfnisse, zu befriedigen, geht es beim Unterverdienen auch um die Unfähigkeit, unsere Fähigkeiten und Kompetenzen vollständig anzuerkennen und auszudrücken. Es geht um Untererfüllung oder Unter-Sein, egal wie viel Geld wir verdienen.
