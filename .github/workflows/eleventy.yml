@@ -37,9 +37,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build
-        run: npx eleventy
+        uses: patrickweaver/actions-eleventy@upgrade-node-22
+        with:
+          install_dependencies: true
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: _site
           publish_branch: gh-pages
