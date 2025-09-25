@@ -7,12 +7,12 @@
     link: https://us02web.zoom.us/j/82726537856?pwd=T0dpZ1VHWUgzTU45ZDh0SElldVJaQT09
     note: "id: 827 2653 7856, kenncode: 015568"
 
-- name: "Donnerstag Telefonmeeting"
-  time: "20:15 bis 21:15 Uhr"
-  day_of_week: "Donnerstag"
-  location:
-    text: "Tel.: 0221 9820 3406 PIN: 5522461#"
-  chairvorlage: UA-Online-Chairvorlage-dt.pdf
+# - name: "Donnerstag Telefonmeeting"
+#  time: "20:15 bis 21:15 Uhr"
+#  day_of_week: "Donnerstag"
+#  location:
+#    text: "Tel.: 0221 9820 3406 PIN: 5522461#"
+#  chairvorlage: UA-Online-Chairvorlage-dt.pdf
 
 # - name: "UA-Meeting Hannover Deutsch / Persisch"
 #   time: "18:00 Uhr"
