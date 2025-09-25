@@ -28,9 +28,10 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - name: Checkout
+        uses: actions/checkout@v4
       - name: Build
-        uses: TartanLlama/actions-eleventy@master
+        uses: patrickweaver/actions-eleventy@upgrade-node-22
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
