@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../assets/css/uastyle.css" />
+    <link rel="stylesheet" href="../assets/css/menu.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.0.min.js"
+      integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--[if lt IE 9]>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"
+        integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g="
+        crossorigin="anonymous"
+      ></script>
+    <![endif]-->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+  </head>
+
+  <body>
+    <script>
+      (function ($) {
+        // Begin jQuery
+        $(function () {
+          // DOM ready
+          // If a link has a dropdown, add sub menu toggle.
+          $("nav ul li a:not(:only-child)").click(function (e) {
+            $(this).siblings(".nav-dropdown").toggle();
+            // Close one dropdown when selecting another
+            $(".nav-dropdown").not($(this).siblings()).hide();
+            e.stopPropagation();
+          });
+          // Clicking away from dropdown will remove the dropdown class
+          $("html").click(function () {
+            $(".nav-dropdown").hide();
+          });
+          // Toggle open and close nav styles on click
+          $("#nav-toggle").click(function () {
+            $("nav ul").slideToggle();
+          });
+          // Hamburger to X toggle
+          $("#nav-toggle").on("click", function () {
+            this.classList.toggle("active");
+          });
+        }); // end DOM ready
+      })(jQuery); // end jQuery
+    </script>
+    <div class="wrapper">
+      <header>
+        <div class="nav-container">
+          <div class="brand">
+            <a href="/"><img src="/assets/images/ua-logo.png" /></a>
+          </div>
+          <nav>
+            <div class="nav-mobile">
+              <a id="nav-toggle" href="#!"><span></span></a>
+            </div>
+            <ul><li><a href="/12schritte/">12 Schritte</a></li>
+<li><a href="/symptome/">Symptome</a></li>
+<li><a href="/werkzeuge/">Werkzeuge</a></li>
+<li><a href="/meetings/">Meetings</a></li>
+<li><a href="/literatur/">Literatur</a></li></ul>
+          </nav>
+        </div>
+      </header>
+      <section><h1>Werkzeuge der Anonymen Unterverdiener®</h1>
+<ol>
+<li>Zeiterfassung – Wir werden uns bewusst, wie wir unsere
+Zeit verbringen. Wir erfassen sie schriftlich, um unsere
+Wahrnehmung zu stärken, und uns auf unsere Ziele
+und die nötigen Handlungen zu konzentrieren.</li>
+<li>Meetings – Wir besuchen regelmäßig UA Meetings, um
+unsere Erfahrung, Kraft und Hoffnung zu teilen, und um
+uns und anderen bei der Genesung vom Unterverdienen
+zu helfen.</li>
+<li>Sponsorschaft – Wir bemühen uns aktiv um Sponsorschaft
+mit einer Person, welche die Zwölf Schritte in UA
+gearbeitet hat und bereit ist, uns in unserer Genesung
+anzuleiten.</li>
+<li>Besitzbewusstsein – wir entsorgen regelmäßig was uns
+nicht mehr dienlich ist, um unseren Glauben an ein
+reiches Leben zu fördern und unsere Fähigkeit zu entwickeln,
+uns mit dem Benötigten versorgen zu können.</li>
+<li>Dienst – Dienst ist wesentlich für unsere Genesung.
+Durch Dienst an Anderen und an der UA Gemeinschaft
+behalten wir, was wir so reichlich geschenkt bekommen
+haben.</li>
+<li>‘Goals Pages’ – Wir setzen Ziele für alle Bereiche unseres
+Lebens, schreiben sie auf, erfassen Fortschritte und
+belohnen den Erfolg.</li>
+<li>Action Meetings – Wir organisieren Action Meetings mit
+anderen UA Mitgliedern, um unsere Erwerbsanliegen zu
+besprechen und Aktionen zu entwickeln, die mehr
+Wohlstand in unser Leben bringen.</li>
+<li>Action Partner – Wir sind mit Action Partnern über
+unsere Erwerbsanliegen in regelmäßigem Austausch, um uns
+gegenseitig Rechenschaft, Beständigkeit und Unterstützung zu geben.</li>
+<li>Zahlungsfähigkeit – Wir machen keine Schulden, nur für
+heute. Schuldenmachen führt zu Unterverdienen.</li>
+<li>Kommunikation – Wir kontaktieren andere UA
+Mitglieder, um Unterstützung zu suchen, Isolation zu
+überwinden und unsere Selbstverpflichtung zum Handeln zu stärken.</li>
+<li>Literatur – Wir lesen Zwölf-Schritte-Literatur, um das Verständnis
+von zwanghafter Krankheit und dem Genesungsprozess zu vertiefen.</li>
+<li>Rücklagen – Geld zurück zu legen zeigt Vertrauen in
+die Zukunft und betont, dass Geld ein
+wichtiges Werkzeug für unsere Wohlstandsvision ist. Wir
+erstellen und folgen einem Rücklagenplan in dem uns
+möglichen Umfang.</li>
+</ol>
+<p><em>Hinweis: Der Text ist noch nicht durch ein deutschsprachiges UA-Literaturkomitee bestätigt. Verschiedene Versionen sind in den Meetings zur Zeit im Umlauf.</em></p>
+</section>
+      <footer>
+        <a href="/datenschutz">Datenschutz</a> |
+        <small>&copy; 2025 UA</small> | <a href="/upptime-uadeutschland">Upptime Monitor</a>
+      </footer>
+    </div>
+  </body>
+</html>

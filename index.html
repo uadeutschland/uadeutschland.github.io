@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../assets/css/uastyle.css" />
+    <link rel="stylesheet" href="../assets/css/menu.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.0.min.js"
+      integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--[if lt IE 9]>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"
+        integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g="
+        crossorigin="anonymous"
+      ></script>
+    <![endif]-->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+  </head>
+
+  <body>
+    <script>
+      (function ($) {
+        // Begin jQuery
+        $(function () {
+          // DOM ready
+          // If a link has a dropdown, add sub menu toggle.
+          $("nav ul li a:not(:only-child)").click(function (e) {
+            $(this).siblings(".nav-dropdown").toggle();
+            // Close one dropdown when selecting another
+            $(".nav-dropdown").not($(this).siblings()).hide();
+            e.stopPropagation();
+          });
+          // Clicking away from dropdown will remove the dropdown class
+          $("html").click(function () {
+            $(".nav-dropdown").hide();
+          });
+          // Toggle open and close nav styles on click
+          $("#nav-toggle").click(function () {
+            $("nav ul").slideToggle();
+          });
+          // Hamburger to X toggle
+          $("#nav-toggle").on("click", function () {
+            this.classList.toggle("active");
+          });
+        }); // end DOM ready
+      })(jQuery); // end jQuery
+    </script>
+    <div class="wrapper">
+      <header>
+        <div class="nav-container">
+          <div class="brand">
+            <a href="/"><img src="/assets/images/ua-logo.png" /></a>
+          </div>
+          <nav>
+            <div class="nav-mobile">
+              <a id="nav-toggle" href="#!"><span></span></a>
+            </div>
+            <ul><li><a href="/12schritte/">12 Schritte</a></li>
+<li><a href="/symptome/">Symptome</a></li>
+<li><a href="/werkzeuge/">Werkzeuge</a></li>
+<li><a href="/meetings/">Meetings</a></li>
+<li><a href="/literatur/">Literatur</a></li></ul>
+          </nav>
+        </div>
+      </header>
+      <section><h1>Die deutschsprachige Underearners Anonymous Community</h1>
+<h3>Wichtig! Die Website benötigt einen neuen webmaster, bitte melden!!!</h3>
+<p>Underearners Anonymous® ist ein 12-Schritte-Programm (abgeleitet vom 12-Schritte-Programm der Anonymen Alkoholiker) von Menschen, die zusammengekommen sind, um sich und einander zu helfen, vom Unterverdienen zu genesen.</p>
+<p>Unterverdienen ist vieles, bei dem es nicht nur um Geld geht. Während die sichtbarste Folge die Unfähigkeit ist, die eigenen Bedürfnisse, einschließlich zukünftiger Bedürfnisse, zu befriedigen, geht es beim Unterverdienen auch um die Unfähigkeit, unsere Fähigkeiten und Kompetenzen vollständig anzuerkennen und auszudrücken. Es geht um Untererfüllung oder Unter-Sein, egal wie viel Geld wir verdienen.</p>
+<p>Der Weg, um in UA zu beginnen, besteht darin, an Meetings teilzunehmen und schriftlich festzuhalten, wie wir unsere Zeit „ausgeben“.
+Die Teilnahme an Meetings unterstützt unseren gesamten Genesungsprozess. Die Zeiterfassung steht unserer Gewohnheit gegenüber, in Unbestimmtheit zu leben. Es stellt sicher, dass wir beginnen, klar zu sehen und uns daran zu erinnern, was wir erreicht haben und was nicht. Wenn wir lernen, schriftlich festzuhalten, wie wir diese endliche Ressource ausgeben, gewinnen wir die dringend benötigte Klarheit. Dies ist Zeit-Nüchternheit. (aus UA-Pamphlet)</p>
+<p>Underearners Anonymous wurde 2005 von Andrew und Hallie, welche Vorerfahrungen mit DA und NA hatten, in Nyack, New York <a href="https://en.wikipedia.org/wiki/Underearners_Anonymous">gegründet</a>.</p>
+<p>Die internationale Homepage findet ihr hier:
+<a href="https://www.underearnersanonymous.org/">https://www.underearnersanonymous.org/</a></p>
+<h2>Präambel</h2>
+<p>Underearners Anonymous® ist eine Gemeinschaft von Männern und
+Frauen, die miteinander ihre Erfahrung, Kraft und Hoffnung teilen,
+um ihr gemeinsames Problem zu lösen und anderen zur Genesung
+vom Unterverdienen zu verhelfen. Die einzige Voraussetzung für
+die Zugehörigkeit ist der Wunsch, mit dem Unterverdienen
+aufzuhören. Es gibt keine Mitgliedsbeiträge oder Gebühren, wir
+erhalten uns durch eigene freiwillige Zuwendungen.
+UA ist nicht verbunden mit irgendeiner Sekte, einer politischen
+Gruppe, Organisation oder Institution. Sie begibt sich in keine
+Kontroverse, noch unterstützt sie irgendeine Sache oder geht
+gegen sie vor. Unser primäres Anliegen ist es, mit dem
+zwanghaften Unterverdienen aufzuhören, nur für Heute, und
+anderen Unterverdienern zu helfen, dies auch zu tun.</p>
+</section>
+      <footer>
+        <a href="/datenschutz">Datenschutz</a> |
+        <small>&copy; 2025 UA</small> | <a href="/upptime-uadeutschland">Upptime Monitor</a>
+      </footer>
+    </div>
+  </body>
+</html>
